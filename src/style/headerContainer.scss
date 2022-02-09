@@ -1,0 +1,49 @@
+@import '@/style/variables.scss';
+
+header {
+    height: 700px;
+    background: url(../../public/img/theme_slider2_bg-1.jpg) no-repeat;
+    position: relative;
+
+    .filter {
+        height: 100%;
+        width: 100%;
+        background-color: $primary-color;
+        opacity: 0.9;
+
+        .content-header {
+            width: 550px;
+            position: absolute;
+            top: 50%; right: 50%;
+            transform: translate(50%,-50%);
+    
+            h1,p {
+                color: #fff
+            }
+            .buttons-header {
+                div:first-child {
+                    margin-right: 30px;
+                }
+    
+                div:last-child {
+                    background-color: #fff;
+                    color: $primary-color
+                }
+
+                i {
+                    font-size: 14px;
+                }
+            }   
+        }
+    }
+
+    .wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+}

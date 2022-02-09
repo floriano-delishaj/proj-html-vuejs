@@ -1,0 +1,36 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '@/style/variables.scss';
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css%27');
+
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background-color: $button-color;
+    padding: 13px 30px;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn.red {
+    background-color: $primary-color;
+    padding: 10px 30px;
+}

@@ -1,0 +1,44 @@
+@import "@/style/variables.scss";
+
+.faculties {
+    position: relative;
+    margin-top: 200px;
+
+    .menu {
+        height: 200px;
+        background-color: #fff;
+        box-shadow: inset 0px 11px 8px -10px #ccc, inset 0px -11px 8px -10px #ccc;
+        .container {
+
+            border-left: 1px solid #ccc;
+            .card-box {
+                align-items: center;
+                width: calc(100% / 5);
+                height: 200px;
+                border-right: 1px solid #ccc;
+
+                img {
+                    width: 100px;
+                }
+
+                p {
+                    padding-top: 15px;
+                    color: $primary-color;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .container {
+        .row {
+            .col-12.col-lg-6 {
+
+                img {
+                    padding-left:170px;
+                }
+
+            }
+        }
+    }
+}

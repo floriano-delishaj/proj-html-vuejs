@@ -1,0 +1,37 @@
+@import '@/style/variables.scss';
+
+nav {
+    height: 130px;
+
+    img {
+        width: 250px;
+    }
+
+    div {
+        
+        ul {
+            
+            li {
+                margin-right: 30px;
+                color: #fff;
+                font-weight: bold;
+                line-height: 46px;
+
+                &:nth-child(1)::after,
+                &:nth-child(2)::after,
+                &:nth-child(4)::after,
+                &:nth-child(5)::after {
+                    font-family: 'Font Awesome 5 Free'; font-weight: 900; content: '\f0d7';
+                    color: $button-color;
+                }
+
+                a:hover {
+                    color: $button-color;
+
+                }
+
+            }
+        }
+
+    }
+}

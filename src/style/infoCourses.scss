@@ -1,0 +1,23 @@
+@import "@/style/variables.scss";
+
+.info-courses {
+    background: url("../../public/img/home-background.png");
+    padding-top: 100px;
+
+    > img {
+        width: 60px;
+    }
+    .card-box {
+        height: 300px;
+        width: 85%;
+
+        h1 {
+            font-size: 46px;
+        }
+
+        p {
+            font-size: 16px;
+            padding-top: 30px;
+        }
+    }
+}

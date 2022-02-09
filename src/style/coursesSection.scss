@@ -1,0 +1,37 @@
+@import '@/style/variables.scss';
+
+
+@import '@/style/variables.scss';
+
+.courses {
+    background-color: $bg-main;
+
+    .card-box {
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+    
+        h5 {
+            padding: 10px 0;
+        }
+    
+        img {
+            width: 80px;
+        }
+    
+        p {
+            span:last-child {
+                font-weight: bold;
+            }
+        }
+
+        .btn {
+            margin-bottom: -80px
+        }
+    }
+
+    .box {
+        height: 100%;
+        width: 80%;
+    }
+}

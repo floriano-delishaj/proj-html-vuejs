@@ -1,0 +1,46 @@
+@import "@/style/variables.scss";
+
+.university {
+    background-color: $primary-color;
+
+    .university-container {
+
+
+        .title {
+            background-color: #db2a2c;
+        }
+        h1 {
+            margin-top: 20px;
+            color: #fff;
+        }
+        .container-card {
+            .text-card {
+                text-align: center;
+                width: 350px;
+                font-size: 14px;
+                color: #fff;
+                padding: 20px 0;
+
+                &:nth-child(1) {
+                    margin-right: 90px;
+                }
+            }
+        }
+
+        .event-card {
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 50px;
+
+            p {
+                color: $text-color;
+            }
+
+            .btn {
+                margin-bottom: -120px;
+            }
+        }
+    }
+}
