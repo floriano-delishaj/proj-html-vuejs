@@ -34,6 +34,7 @@ h1,h2,h3,h4,h5,h6 {
 .btn.red {
     background-color: $primary-color;
     padding: 10px 30px;
+    box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.486);
 }
 
 @media screen and (max-width: 991px){
