@@ -9,6 +9,8 @@
     <div class="menu mt-5">
       <div class="container d-flex">
         <div
+          v-for="(card, i) in faculties"
+          :key="i"
           class="
             card-box
             d-flex
@@ -17,56 +19,8 @@
             justify-content-center
           "
         >
-          <img src="/img/Gavel-v2.png" alt="" />
-          <p class="text-center">Law Faculty</p>
-        </div>
-        <div
-          class="
-            card-box
-            d-flex
-            flex-column
-            align-items-center
-            justify-content-center
-          "
-        >
-          <img src="/img/Coins-tabs-v2.png" alt="" />
-          <p class="text-center">Economy</p>
-        </div>
-        <div
-          class="
-            card-box
-            d-flex
-            flex-column
-            align-items-center
-            justify-content-center
-          "
-        >
-          <img src="/img/Medicine-tabs-v2.png" alt="" />
-          <p class="text-center">Medicine</p>
-        </div>
-        <div
-          class="
-            card-box
-            d-flex
-            flex-column
-            align-items-center
-            justify-content-center
-          "
-        >
-          <img src="/img/Computer-tabs-v2.png" alt="" />
-          <p class="text-center">Computer Science</p>
-        </div>
-        <div
-          class="
-            card-box
-            d-flex
-            flex-column
-            align-items-center
-            justify-content-center
-          "
-        >
-          <img src="/img/Palette-tabs-v2.png" alt="" />
-          <p class="text-center">Graphic Design</p>
+          <img :src="`/img/${card.img}`" alt="" />
+          <p class="text-center">{{card.content}}</p>
         </div>
       </div>
     </div>
@@ -90,19 +44,45 @@
             practice through a range of student-led activities and competitions.
           </p>
           <div>
-          <div class="btn red">Read More</div>
+            <div class="btn red">Read More</div>
           </div>
         </div>
       </div>
     </div>
 
-
-      <img class="sticky-bottom w-100" src="/svg/svg-0.svg" alt="">
+    <img class="sticky-bottom w-100" src="/svg/svg-0.svg" alt="" />
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      faculties: [
+        {
+          img: "Gavel-v2.png",
+          content: "Law Faculty",
+        },
+        {
+          img: "Coins-tabs-v2.png",
+          content: "Economy",
+        },
+        {
+          img: "Medicine-tabs-v2.png",
+          content: "Medicine",
+        },
+        {
+          img: "Computer-tabs-v2.png",
+          content: "Computer Science",
+        },
+        {
+          img: "Palette-tabs-v2.png",
+          content: "Graphic Design",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
