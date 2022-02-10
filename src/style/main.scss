@@ -12,6 +12,10 @@ ul {
 a {
     text-decoration: none;
     color: #fff;
+
+    &:hover {
+        color: $button-color
+    }
 }
 
 p {
@@ -35,7 +39,12 @@ h1,h2,h3,h4,h5,h6 {
     background-color: $primary-color;
     padding: 10px 30px;
     box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.486);
+
+    &:hover {
+        background-color:rgba(241, 56, 56, 0.842);
+    }
 }
+
 
 @media screen and (max-width: 991px){
     .col-12{

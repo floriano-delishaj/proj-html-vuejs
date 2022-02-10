@@ -31,7 +31,9 @@
               </li>
 
               <li v-for="(argoments, i) in list.argoments" :key="i">
-                {{ argoments }}
+                <a href="#">
+                  {{argoments}}
+                </a>
               </li>
             </ul>
           </div>
@@ -60,7 +62,7 @@
       </div>
 
       <div class="btn">
-          <a href="#">
+          <a href="">
               <i class="fas fa-angle-up fa-fw"></i>
           </a>
       </div>
