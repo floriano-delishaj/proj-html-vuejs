@@ -1,37 +1,40 @@
-@import '@/style/variables.scss';
+@import "@/style/variables.scss";
 
 nav {
-    height: 130px;
+    min-height: 150px;
+    padding: 30px;
 
-    img {
-        width: 250px;
-    }
+    ul {
+        li {
+            padding-left: 20px;
 
-    div {
-        
-        ul {
-            
-            li {
-                margin-right: 30px;
+            a {
                 color: #fff;
                 font-weight: bold;
-                line-height: 46px;
 
                 &:nth-child(1)::after,
                 &:nth-child(2)::after,
                 &:nth-child(4)::after,
                 &:nth-child(5)::after {
-                    font-family: 'Font Awesome 5 Free'; font-weight: 900; content: '\f0d7';
-                    color: $button-color;
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    content: "\f0d7";
+                    padding-left: 10px;
                 }
 
-                a:hover {
+                &:hover {
                     color: $button-color;
-
                 }
-
             }
         }
+    }
 
+    .btn {
+        margin-left: 20px;
+
+        &:hover {
+            background-color: #fff;
+            color: $primary-color;
+        }
     }
 }

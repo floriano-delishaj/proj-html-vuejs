@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="info-courses">
-        <img src="../../public/img/Books-icon.png" alt="" />
+        <img src="/img/Books-icon.png" alt="" />
         <div class="row">
           <div class="col-12 col-lg-6 d-flex align-items-center">
             <div class="card-box">
@@ -22,7 +22,7 @@
             <div class="card-box">
               <img
                 class="img-fluid"
-                src="../../public/img/Graduation-Illustration.png"
+                src="/img/Graduation-Illustration.png"
                 alt=""
               />
             </div>

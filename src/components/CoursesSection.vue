@@ -6,7 +6,7 @@
       <div class="row py-5">
         <div v-for="(item, i) in coursesInfo" :key="i" class="col-12 col-lg-3">
           <div class="card-box text-center">
-            <img :src="`../../public/img/${item.img}`" alt="" />
+            <img :src="`/img/${item.img}`" alt="" />
             <h5>{{ item.name }}</h5>
             <p>
               <span><i class="far fa-user"></i> Teacher: </span>
@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-      <img class="img pt-5 pb-2" src="../../public/img/Exam-icon.png" alt="" />
+      <img class="img pt-5 pb-2" src="/img/Exam-icon.png" alt="" />
       <div class="row">
         <div class="col-12 col-lg-6">
           <div class="box">

@@ -21,7 +21,7 @@
       </div>
 
       <div class="wave">
-        <img src="../../public/img/Wave-1.png" alt="" />
+        <img src="/img/Wave-1.png" alt="" />
       </div>
     </div>
   </header>

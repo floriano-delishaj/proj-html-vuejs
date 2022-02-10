@@ -6,9 +6,10 @@
 </template>
 
 <script>
+import "dayjs/locale/es";
 
 import HeaderContainer from "./components/HeaderContainer.vue";
-import MainContainer from './components/MainContainer.vue';
+import MainContainer from "./components/MainContainer.vue";
 
 export default {
   name: "App",

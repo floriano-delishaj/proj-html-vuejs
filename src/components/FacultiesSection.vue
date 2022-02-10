@@ -17,7 +17,7 @@
             justify-content-center
           "
         >
-          <img src="../../public/img/Gavel-v2.png" alt="" />
+          <img src="/img/Gavel-v2.png" alt="" />
           <p class="text-center">Law Faculty</p>
         </div>
         <div
@@ -29,7 +29,7 @@
             justify-content-center
           "
         >
-          <img src="../../public/img/Coins-tabs-v2.png" alt="" />
+          <img src="/img/Coins-tabs-v2.png" alt="" />
           <p class="text-center">Economy</p>
         </div>
         <div
@@ -41,7 +41,7 @@
             justify-content-center
           "
         >
-          <img src="../../public/img/Medicine-tabs-v2.png" alt="" />
+          <img src="/img/Medicine-tabs-v2.png" alt="" />
           <p class="text-center">Medicine</p>
         </div>
         <div
@@ -53,7 +53,7 @@
             justify-content-center
           "
         >
-          <img src="../../public/img/Computer-tabs-v2.png" alt="" />
+          <img src="/img/Computer-tabs-v2.png" alt="" />
           <p class="text-center">Computer Science</p>
         </div>
         <div
@@ -65,7 +65,7 @@
             justify-content-center
           "
         >
-          <img src="../../public/img/Palette-tabs-v2.png" alt="" />
+          <img src="/img/Palette-tabs-v2.png" alt="" />
           <p class="text-center">Graphic Design</p>
         </div>
       </div>
@@ -76,7 +76,7 @@
         <div class="col-12 col-lg-6">
           <img
             class="img-fluid"
-            src="../../public/img/Gavel-Illustration-e1556884768193.png"
+            src="/img/Gavel-Illustration-e1556884768193.png"
             alt=""
           />
         </div>
@@ -97,7 +97,7 @@
     </div>
 
 
-      <img class="sticky-bottom w-100" src="../../public/svg/svg-0.svg" alt="">
+      <img class="sticky-bottom w-100" src="/svg/svg-0.svg" alt="">
   </section>
 </template>
 
