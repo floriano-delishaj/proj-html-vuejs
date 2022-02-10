@@ -5,13 +5,13 @@
     margin-top: 200px;
 
     .menu {
-        height: 200px;
         background-color: #fff;
-        box-shadow: inset 0px 11px 8px -10px #ccc, inset 0px -11px 8px -10px #ccc;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.144), 0px -5px 5px rgba(0, 0, 0, 0.144);
         .container {
 
             border-left: 1px solid #ccc;
             .card-box {
+                height: 200px;
                 align-items: center;
                 width: calc(100% / 5);
                 height: 200px;
@@ -40,5 +40,11 @@
 
             }
         }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .card-box {
+        width: calc(100% / 3);
     }
 }
