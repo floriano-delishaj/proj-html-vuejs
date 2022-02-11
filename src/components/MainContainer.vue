@@ -6,14 +6,12 @@
     <courses-section />
     <news-letter />
     <partners-container />
-    <footer-content />
   </div>
 </template>
 
 <script>
 import CoursesSection from "./CoursesSection.vue";
 import FacultiesSection from "./FacultiesSection.vue";
-import FooterContent from './footerContent.vue';
 import InfoCourses from "./InfoCourses.vue";
 import NewsLetter from './NewsLetter.vue';
 import PartnersContainer from './PartnersContainer.vue';
@@ -27,7 +25,6 @@ export default {
     CoursesSection,
     NewsLetter,
     PartnersContainer,
-    FooterContent,
   },
 };
 </script>
